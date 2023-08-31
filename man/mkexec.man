@@ -1,0 +1,17 @@
+
+NAME
+	mkexec
+
+Version
+	1.1.0
+
+DESC
+	Makes a given file an executable, via `chmod +x`.
+
+USAGE
+  $ mkexec [FILE]
+  $ mkexec -h | --help
+  $ mkexec -v | --version
+
+
+  

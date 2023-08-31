@@ -1,18 +1,17 @@
 #!/usr/bin/env bash
 # -*- coding: utf-8 -*-
 #==============================================================================
-# mkexec.sh
-# v1.1.0
+# mkexec.sh (v1.1.0)
 # Makes given file executable (via `chmod +x`).
-# Updated 08/23/2023
 # By Matthew Daniel Brown
+# Updated 08/13/2023
 # Copyright (c) 2023. All Rights Reserved.
 #------------------------------------------------------------------------------
 # NAME
 # 	mkexec
 #
 # Version
-# 	0.1.1
+# 	1.1.0
 # 
 # DESC
 # 	Makes a given file an executable, via `chmod +x`.
@@ -142,12 +141,10 @@ function show_message_for_result() {
   local RESULT
   local TARGET_FILEPATH
   local STYLED_RESULT_MESSAGE
+  
   RESULT="$1"
   TARGET_FILEPATH="$2"
   STYLED_RESULT_MESSAGE=""
-
-
-
 
   local highlight
   local cyanColor
@@ -298,7 +295,6 @@ function handle_options_and_arguments() {
    
 }
 
-
 #------------------------------------------------------------------------------
 # Main Function
 #------------------------------------------------------------------------------
@@ -310,9 +306,11 @@ main() {
 #------------------------------------------------------------------------------
 # Script Runtime
 #------------------------------------------------------------------------------
+
 main "$*"
 
 #==============================================================================
 # SCRIPT END
 #==============================================================================
-
+ 
+ 

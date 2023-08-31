@@ -28,16 +28,17 @@ chmod +x mkexec
 ## Usage
 
 ```sh
-mkexec [OPTS] [ARGS]
-# where [ARGS] is a FILE or SERIES OF FILES...
-# or [OPTS] is ONE of the following:
-#   -h, --help,
-#   -v, --version,
-#   -c, --current-directory
-#   -d, --directory
-#       WHILE : [ARGS] is a DIRECTORY (PATH)
-#   -R, --recursive
-#       WITH : =d, --directory [PATH]
-#              -c, --current-directory
+# NAME
+# 	mkexec
 #
+# Version
+# 	1.1.0
+# 
+# DESC
+# 	Makes a given file an executable, via `chmod +x`.
+#
+# USAGE
+# 	$ mkexec [FILE]
+#   $ mkexec -h | --help
+#   $ mkexec -v | --version
 ```
